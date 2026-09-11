@@ -1,15 +1,22 @@
-node_modules/
-.output/
-.wxt/
-stats.html
-*.zip
-*.log
-.DS_Store
+# Secrets
 .env
 .env.*
 !.env.example
 
-# generated from rules-src/ by scripts/build-rules.ts
-public/rules/
-package-lock.json
-docs/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+
+# Local data
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
